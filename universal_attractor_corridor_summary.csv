@@ -1,0 +1,2 @@
+n_families,s_min,s_max,e_min,e_max,bbox_area,mean_nearest_neighbor_distance,mean_pairwise_distance,density,top_n,n_perm,observed_universal_overlap,overlap_p_ge,bbox_p_small,mean_nearest_neighbor_p_small,density_p_large,mean_pairwise_distance_p_small
+21,7,20,41,49,126,1.0476190476190477,5.6358158655759345,0.16666666666666666,50,2000,21,0.0004997501249375312,0.0004997501249375312,0.0004997501249375312,0.0004997501249375312,0.0004997501249375312

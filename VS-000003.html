@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>VeilSight Verify - VS-000003</title>
+<style>
+body { font-family: Segoe UI, Arial, sans-serif; margin: 24px; }
+.card { border:1px solid #ddd; border-radius:14px; padding:18px; max-width:980px; }
+.h { font-size:22px; font-weight:800; }
+.tag { display:inline-block; padding:6px 10px; border-radius:10px; font-weight:800; }
+.valid { background:#dcfce7; }
+.bad { background:#fee2e2; }
+.kv div { margin: 6px 0; }
+.code { font-family: Consolas, monospace; font-size: 12px; background:#f6f6f6; padding:8px; border-radius:8px; overflow:auto; }
+.small { color:#666; font-size:12px; }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="h">VeilSight Trust Certificate Verification</div>
+  <div class="small">This page is informational. For cryptographic verification, run:
+    <span class="code">python verify_certificate.py certificate.json</span>
+  </div>
+
+  <div style="margin-top:12px;">
+    <span class="tag valid">VALID</span>
+    <span class="small" style="margin-left:10px;"></span>
+  </div>
+
+  <div class="kv" style="margin-top:12px;">
+    <div><b>Serial:</b> VS-000003</div>
+    <div><b>Certificate ID:</b> <span class="code">sha256:502467b8d66788e2d61187b8a0fdafc8fde757d55a4b9cebc696f1061555df5c</span></div>
+    <div><b>Issued By:</b> veilsight-oracle-01</div>
+    <div><b>Verified By:</b> veilsight-oracle-02</div>
+    <div><b>Policy ID:</b> VS-TRUST-POL-001</div>
+    <div><b>Tool Version:</b> veilsight-trust/1.1.0</div>
+    <div><b>Scope:</b> Artifact integrity + issuer signature + verifier attestation + expiry/revocation checks</div>
+    <div><b>Lineage:</b> <span class="code">{"parent_cert_id": null, "series": "default"}</span></div>
+    <div><b>Issued At (UTC):</b> 2026-02-09T11:16:31+00:00</div>
+    <div><b>Expires At (UTC):</b> 2027-02-09T11:16:31+00:00</div>
+    <div><b>Artifact SHA-256:</b> <span class="code">sha256:610fad242900b128a57de005343a2a10622f3a42eb0c1b6ec902c16e37ff1cca</span></div>
+    <div><b>Verifier quorum:</b> required=1, attestations_present=1</div>
+  </div>
+</div>
+</body>
+</html>

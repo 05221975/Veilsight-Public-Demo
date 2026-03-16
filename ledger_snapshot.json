@@ -1,0 +1,46 @@
+[
+  {
+    "event": {
+      "ts": "2026-02-09T08:26:35Z",
+      "node": "veilsight-oracle-01",
+      "type": "CERT_ISSUED",
+      "payload": {
+        "certificate_id": "sha256:ed60f7c4d1dfa620abc7c6fd5de981014a44a87edb4a306a9e9719891c699194",
+        "artifact_sha256": "sha256:610fad242900b128a57de005343a2a10622f3a42eb0c1b6ec902c16e37ff1cca",
+        "issued_by": "veilsight-oracle-01",
+        "verified_by": "veilsight-oracle-02",
+        "cert_path": "runs\\cert_20260209T082635Z.json"
+      },
+      "prev_hash": null
+    },
+    "entry_hash": "sha256:7f044bf1b4a8ffaf530c0d0d9db653fa7b09c6420599f6a01dd6fe7e52a09cdc",
+    "sig_b64": "SOsv+bq5xSfRyoc88Vn7XxixyyYC9XxaqDdMui1i+Fy4ktzrgcSWi5UxEX/ek4EQQkP1kJfuwsetjEY9qtgXCw=="
+  },
+  {
+    "type": "certificate",
+    "ts": "2026-02-09T08:59:56Z",
+    "cert_id": "sha256:a986fc2f7a22693bc993d9176f6d17a87d97f427396ec45588053f0b960c8d22",
+    "serial": 1,
+    "issued_by": "veilsight-oracle-01",
+    "artifact_sha256": "sha256:610fad242900b128a57de005343a2a10622f3a42eb0c1b6ec902c16e37ff1cca",
+    "certificate_file": "runs/cert_20260209T085956Z.json"
+  },
+  {
+    "type": "certificate",
+    "ts": "2026-02-09T11:06:12Z",
+    "cert_id": "sha256:8c4f0cf4ff54d430f7f13023a6695fbe9a6b62fe16c4981a5a8ec10c7ad8f47b",
+    "serial": 2,
+    "issued_by": "veilsight-oracle-01",
+    "artifact_sha256": "sha256:610fad242900b128a57de005343a2a10622f3a42eb0c1b6ec902c16e37ff1cca",
+    "certificate_file": "runs/cert_20260209T110612Z.json"
+  },
+  {
+    "type": "certificate",
+    "ts": "2026-02-09T11:16:31Z",
+    "cert_id": "sha256:502467b8d66788e2d61187b8a0fdafc8fde757d55a4b9cebc696f1061555df5c",
+    "serial": 3,
+    "issued_by": "veilsight-oracle-01",
+    "artifact_sha256": "sha256:610fad242900b128a57de005343a2a10622f3a42eb0c1b6ec902c16e37ff1cca",
+    "certificate_file": "runs/cert_20260209T111631Z.json"
+  }
+]

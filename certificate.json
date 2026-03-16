@@ -1,0 +1,45 @@
+{
+  "certificate": {
+    "cert_body": {
+      "schema": "veilsight-trust-certificate/v1",
+      "tool_version": "veilsight-trust/1.1.0",
+      "policy_id": "VS-TRUST-POL-001",
+      "scope": "Artifact integrity + issuer signature + verifier attestation + expiry/revocation checks",
+      "serial": 3,
+      "issued_at": "2026-02-09T11:16:31Z",
+      "ttl_days": 365,
+      "artifact": {
+        "path": "runs/veilsight_chat_cert_report.pdf",
+        "sha256": "sha256:610fad242900b128a57de005343a2a10622f3a42eb0c1b6ec902c16e37ff1cca"
+      },
+      "issued_by": "veilsight-oracle-01",
+      "verified_by": "veilsight-oracle-02",
+      "verifier_quorum": {
+        "required": 1,
+        "verifiers": [
+          "veilsight-oracle-02"
+        ],
+        "mode": "any"
+      },
+      "issuer_lineage": {
+        "parent_cert_id": null,
+        "series": "default"
+      }
+    },
+    "issuer_pub_path": "keys/veilsight-oracle-01.ed25519.pub",
+    "issuer_sig": "imYxaUmRitZzFJTVaaPzftoREDfTNBVVcI7KI3wwP7QBUz0zx4nD68D1sPird7Hx5OQCeqkSHHooT8UT6fBMDA==",
+    "cert_id": "sha256:502467b8d66788e2d61187b8a0fdafc8fde757d55a4b9cebc696f1061555df5c"
+  },
+  "attestations": [
+    {
+      "body": {
+        "type": "attestation",
+        "ts": "2026-02-09T11:16:31Z",
+        "verifier": "veilsight-oracle-02",
+        "serial": 3,
+        "artifact_sha256": "sha256:610fad242900b128a57de005343a2a10622f3a42eb0c1b6ec902c16e37ff1cca"
+      },
+      "sig": "iqNXwrcWJo54L710ckRFfTtp1vDk6uiNFXA852PSJ3zzHTF29A1LFkT2N9dOARk5mZvuMlQU/oSwBuddA6UqBg=="
+    }
+  ]
+}
